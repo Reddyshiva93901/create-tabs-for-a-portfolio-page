@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.Tabs {
+  display: flex;
+  justify-content: center;
+}
+
+.TabButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.TabButton.Active {
+  background-color: #0056b3;
+}
+
+.Content {
+  margin-top: 20px;
+}
+
+.TabContent {
+  display: none;
+}
+
+.TabContent.Active {
+  display: block;
+}
+
+.TabContent h2 {
+  margin-bottom: 10px;
+}
